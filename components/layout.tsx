@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = 'SPxiaomin'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({
@@ -50,7 +50,7 @@ export default function Layout({
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/profile.jpeg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
